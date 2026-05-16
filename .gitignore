@@ -1,0 +1,5 @@
+.env*
+.DS_Store
+vectorstore/*
+newportfoliostore/*
+email-generator.ipynb
