@@ -3,3 +3,7 @@
 vectorstore/*
 newportfoliostore/*
 email-generator.ipynb
+.streamlit/secrets.toml
+app/__pycache__/
+*.pyc
+cold-venv/
