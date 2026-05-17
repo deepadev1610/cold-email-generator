@@ -8,7 +8,7 @@ import pandas as pd
 
 def create_streamlit_app(llm, portfolio, clean_text):
     st.set_page_config(page_title="Cold Email Generator", layout="wide")
-    st.title("🚀 Cold Email Generator")
+    st.title("📨 Cold Email Generator")
 
     # Initialize session state
     if "generating" not in st.session_state:
@@ -69,8 +69,6 @@ def create_streamlit_app(llm, portfolio, clean_text):
                 st.session_state.portfolio_loaded = True
 
     # ============ MAIN CONTENT - JOB POSTING & EMAIL GENERATION ============
-    st.subheader("📧 Generate Cold Email")
-
     col1, col2 = st.columns([3, 1])
 
     with col1:
